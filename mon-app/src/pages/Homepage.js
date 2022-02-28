@@ -1,6 +1,6 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
-import Jeremie from '../assets/jeremie.png';
+import Jeremie from '../assets/homepage/jeremie.png';
 
 const Homepage = () => {
     return (

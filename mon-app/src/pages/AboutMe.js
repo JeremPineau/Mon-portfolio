@@ -1,18 +1,49 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
+import Epsi from '../assets/about-me/career/licence/epsi.png';
+import Devops from '../assets/about-me/career/licence/devops.jpg';
+import IUTLens from '../assets/about-me/career/dut/iut-lens.png';
+import IUTAmiens from '../assets/about-me/career/dut/iut-amiens.png';
+import DUTInformatique from '../assets/about-me/career/dut/dut-informatique.png';
+import LyceeJeanProuve from '../assets/about-me/career/bts/lycee-jean-prouve.png';
+import BTSbatiment from '../assets/about-me/career/bts/bts-batiment.jpg';
+
+
 
 const AboutMe = () => {
     return (
         <div className="about-me">
             <Navigation />
-            <h1>À propos</h1> 
-            <p>
-                Eu ullamco aliquip ipsum esse quis. Ad tempor laborum id laborum commodo dolore excepteur nostrud mollit sunt labore culpa in. Sint anim esse proident qui mollit sint pariatur ea. Et nostrud laborum mollit ut qui in velit eiusmod veniam aliqua mollit dolore. Minim duis commodo non tempor. Est proident est id irure laboris incididunt duis.
-                Ex sit adipisicing incididunt minim amet nostrud ad voluptate velit labore pariatur. Deserunt exercitation irure esse reprehenderit duis amet. Nulla ut irure qui sint esse exercitation incididunt tempor minim nisi nostrud. Eu consectetur minim cupidatat aute quis do ipsum. Aute fugiat qui labore ullamco et irure. Lorem ex veniam cupidatat adipisicing elit sit ullamco.
-                Fugiat irure laborum mollit exercitation veniam fugiat dolore id adipisicing ut commodo id laborum pariatur. Nulla ipsum commodo aute aute nulla ullamco nostrud do. Ex sint ex proident exercitation Lorem. Ullamco ipsum commodo dolore mollit id. Ex nisi nulla veniam incididunt cillum est id in sunt anim laboris eu dolore. Eu Lorem et pariatur et occaecat non sit laborum irure tempor. Deserunt et incididunt commodo id nostrud dolore ad.
-                Voluptate culpa tempor ad voluptate tempor consectetur minim in aliquip aliqua. Amet anim et ut do ea aliqua deserunt ad qui duis laborum officia. Minim voluptate consectetur sunt quis ut eu exercitation qui ullamco fugiat nisi. Ad sit non incididunt commodo. Non in nulla adipisicing officia. Qui sint quis dolore mollit qui duis ut cupidatat esse.
-                Sunt ex excepteur officia adipisicing duis qui minim id id irure occaecat. Excepteur eu eu elit velit pariatur do. Ullamco exercitation voluptate consequat do proident sunt veniam proident incididunt voluptate. Reprehenderit laborum eu cupidatat in do. Excepteur cupidatat in minim culpa ullamco quis nostrud culpa esse sint qui id eiusmod elit. Cupidatat sunt ut deserunt labore proident id.
-            </p>
+            <h1>À propos de moi</h1> 
+            <div id="section">
+            <h2>Mon parcours</h2>
+                <div id="parcours-list">
+                    <div class="parcours">
+                        <h3>2021 - 2022</h3>
+                        <h3>EPSI, Lille</h3>
+                        <img class="image" src={Epsi} alt="epsi" />	
+                        <img class="image" src={Devops} alt="devops" />
+                        <p>Bachelor informatique</p>
+                        <p class="italic">Concepteur développeur d'application / Concepteur intégrateur DEVOPS</p>
+                    </div>
+                    <div class="parcours">
+                        <h3>2018 - 2021</h3>
+                        <h3>IUT de Lens et d'Amiens</h3>
+                        <img id="iut-amiens" src={IUTAmiens} alt="iut-amiens" />
+                        <img class="image" src={IUTLens} alt="iut-lens" />	
+                        <img class="image" src={DUTInformatique} alt="dut-informatique" />
+                        <p>DUT informatique</p>
+                    </div>
+                    <div class="parcours">
+                        <h3>2014 - 2016</h3>
+                        <h3>Lycée Jean Prouvé, Lomme</h3>
+                        <img class="image" src={LyceeJeanProuve} alt="lycee-jean-prouve" />	
+                        <img id="bts-batiment" src={BTSbatiment} alt="bts-batiment" />
+                        <p>BTS bâtiment</p>
+                    </div>
+                </div>
+
+            </div>
         </div>
     );
 };

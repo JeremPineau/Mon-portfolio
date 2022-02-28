@@ -1,8 +1,8 @@
-h1 {
+.homepage h1 {
     text-align: center;
 }
 #presentation {
-    margin-top: 5%;
+    margin: 5% auto auto auto;
     display: grid;
     grid-template-columns: 1fr 2fr;
 }

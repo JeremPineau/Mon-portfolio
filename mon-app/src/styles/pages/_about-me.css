@@ -1,0 +1,20 @@
+#section {
+    margin: 5% auto auto auto;
+    text-align: center;
+}
+#parcours-list {
+    display: grid;
+}
+.parcours {
+    margin: 5% auto auto auto;
+    border: 2px solid black;
+}
+.image {   
+    width: 30%;   
+}
+#iut-amiens {      
+    width: 15%;
+}
+#bts-batiment { 
+    width: 20%;
+}
