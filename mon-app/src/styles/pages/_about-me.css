@@ -2,14 +2,21 @@
     margin: 5% auto auto auto;
     text-align: center;
 }
-#parcours-list {
+#section h2 {
+    margin: 10% auto auto auto;
+}
+
+/* career */
+#career-list {
     display: grid;
 }
-.parcours {
+.career {
+    width: 50%;
     margin: 5% auto auto auto;
+    padding: 5%;
     border: 2px solid black;
 }
-.image {   
+.pic {   
     width: 30%;   
 }
 #iut-amiens {      
@@ -17,4 +24,24 @@
 }
 #bts-batiment { 
     width: 20%;
+}
+
+/* experiences */
+#experiences-list {
+    display: grid;
+}
+.experiences {
+    width: 50%;
+    margin: 5% auto auto auto;
+    padding: 5%;
+    border: 2px solid black;
+}
+.pic0 {   
+    width: 15%;   
+}
+#vietnam { 
+    width: 5%;
+}
+#manutentionnaire { 
+    width: 10%;
 }
