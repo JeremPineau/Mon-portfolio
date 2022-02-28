@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+}
+#presentation {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+#jeremie {
+    margin: auto;
+    text-align: center;
+}
+#jeremie img {
+    width: 60%;
+}
+#description {
+    margin: auto 10% auto auto;
+}
