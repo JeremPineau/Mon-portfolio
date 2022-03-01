@@ -1,8 +1,8 @@
 #copyright-fixed {
-    background: grey;
-    bottom: 0;
-    height: 5vw;
+    background: rgb(211,211,211);
+    height: 2em;
     width: 100%;
+    bottom: 0;
     display: grid;
     position: fixed;
 }

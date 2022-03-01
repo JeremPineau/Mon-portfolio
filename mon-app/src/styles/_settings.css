@@ -1,5 +1,5 @@
 html, body {
-    background: rgba(255, 255, 255, 1);
+    background: rgb(255,255,255);
     font-family: sans-serif;
     height: 100%;
     width: 100%;
@@ -7,8 +7,11 @@ html, body {
     padding: 0;
     display: table;
 }  
+h1 {
+    margin: 2.5% 5%;
+}
 #section {
-    margin: 5% auto 5% auto; 
+    margin: 5% auto; 
 }
 span {
     text-decoration: underline;

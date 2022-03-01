@@ -2,16 +2,16 @@
     text-align: center;
 }
 #career-list, #experiences-list, #skills-list {
-    display: grid;
     margin: 10% auto auto auto;
+    display: grid;
 }
 #licence, #dut, #bts, 
 #internship2, #warehouseman, #production-worker, #internship1, 
 #languages, #programming-languages, #softwares  {
+    border: .1em solid rgb(211,211,211);
     width: 50%;
     margin: 5% auto auto auto;
-    padding: 5%;
-    border: 2px solid black;
+    padding: 2.5% 5%;
 }
 .skills {
     margin: 2.5% auto auto auto;

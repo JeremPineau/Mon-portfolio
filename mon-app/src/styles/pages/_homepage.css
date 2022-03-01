@@ -1,6 +1,6 @@
 #presentation {
-    display: grid;
     grid-template-columns: 1fr 2fr;
+    display: grid;
 }
 #jeremie {
     margin: auto;
