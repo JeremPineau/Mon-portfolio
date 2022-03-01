@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
+import FooterFixed from '../components/FooterFixed';
 
 const ContactMe = () => {
     return (
@@ -18,6 +19,7 @@ const ContactMe = () => {
                     <p><span>GitLab :</span><a href="https://gitlab.com/JeremPineau" target="_blank"> JeremPineau</a></p>
                 </div>
             </div>
+            <FooterFixed />
         </div>
     );
 };

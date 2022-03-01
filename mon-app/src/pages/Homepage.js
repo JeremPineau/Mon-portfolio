@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
+import FooterFixed from '../components/FooterFixed';
 import Jeremie from '../assets/homepage/jeremie.png';
 
 const Homepage = () => {
@@ -21,6 +22,7 @@ const Homepage = () => {
                     </div>
                 </div>
             </div>
+            <FooterFixed />
         </div>
     );
 };

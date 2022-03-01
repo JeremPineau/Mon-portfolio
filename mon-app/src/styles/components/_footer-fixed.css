@@ -1,0 +1,11 @@
+#copyright-fixed {
+    background: grey;
+    bottom: 0;
+    height: 5vw;
+    width: 100%;
+    display: grid;
+    position: fixed;
+}
+#copyright-fixed p {
+    margin: auto; 
+}

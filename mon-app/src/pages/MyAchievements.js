@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
+import FooterRelative from '../components/FooterRelative';
 
 const MyAchievements = () => {
     return (
@@ -37,6 +38,7 @@ const MyAchievements = () => {
 					<p><span>En collaboration avec :</span> Arthur Palma</p>
                 </div>
             </div>
+            <FooterRelative />
         </div>
     );
 };

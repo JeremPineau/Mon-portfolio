@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
+import FooterRelative from '../components/FooterRelative';
 
 /* career */
 import Epsi from '../assets/about-me/career/licence/epsi.png';
@@ -203,6 +204,7 @@ const AboutMe = () => {
                     </div>
                 </div>
             </div>
+            <FooterRelative />
         </div>
     );
 };

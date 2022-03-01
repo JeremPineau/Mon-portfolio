@@ -1,0 +1,11 @@
+#copyright-relative {
+    background: grey;
+    bottom: 0;
+    height: 5vw;
+    width: 100%;
+    display: grid;
+    position: relative;
+}
+#copyright-relative p {
+    margin: auto; 
+}
