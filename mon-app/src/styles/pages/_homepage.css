@@ -6,6 +6,10 @@
     margin: auto;
     text-align: center;
 }
+
+#description h3 {
+    margin: 0 0 3% 5%;
+}
 #description {
     margin: auto 10% auto auto;
 }
