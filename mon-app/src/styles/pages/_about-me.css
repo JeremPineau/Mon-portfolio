@@ -5,43 +5,20 @@
 #section h2 {
     margin: 10% auto auto auto;
 }
-
-/* career */
-#career-list {
+#career-list, #experiences-list, #skills-list {
     display: grid;
 }
-.career {
+#licence, #dut, #bts, 
+#internship2, #warehouseman, #production-worker, #internship1, 
+#languages, #programming-languages, #softwares  {
     width: 50%;
     margin: 5% auto auto auto;
     padding: 5%;
     border: 2px solid black;
 }
-.pic {   
-    width: 30%;   
-}
-#iut-amiens {      
-    width: 15%;
-}
-#bts-batiment { 
-    width: 20%;
-}
-
-/* experiences */
-#experiences-list {
-    display: grid;
-}
-.experiences {
-    width: 50%;
-    margin: 5% auto auto auto;
-    padding: 5%;
-    border: 2px solid black;
-}
-.pic0 {   
-    width: 15%;   
-}
-#vietnam { 
-    width: 5%;
-}
-#manutentionnaire { 
+#skills-list img {
     width: 10%;
+}
+.skills {
+    margin: 2.5% auto auto auto;
 }
