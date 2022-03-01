@@ -57,10 +57,10 @@ const AboutMe = () => {
         <div className="about-me">
             <Navigation />
             <h1>À propos de moi</h1> 
+            
             <div id="section">
-                
-                <h2>Mon parcours</h2>
                 <div id="career-list">
+                <h2>Mon parcours</h2>
                     <div id="licence">
                         <h3>2021 - 2022</h3>
                         <h3>EPSI, Lille</h3>
@@ -86,8 +86,9 @@ const AboutMe = () => {
                     </div>
                 </div>
 
-                <h2>Mes experiences professionnelles</h2>
+                
                 <div id="experiences-list">
+                <h2>Mes experiences professionnelles</h2>
                     <div id="internship2">
                         <h3>IYA Limited</h3>
                         <img src={IyaLimited} alt="iya-limited" width={'10%'} />
@@ -96,15 +97,7 @@ const AboutMe = () => {
                         <p><span>Date :</span> 06/2021 - 08/2021</p>
                         <p><span>Poste :</span> Stagiaire en développement web</p>
                         <p><span>Lieu :</span> Hô Chi Minh-Ville (Viêt Nam)</p>
-                        <p>Créer une application en Laravel permettant de centraliser toutes les activités et modules étant essentiels et utiles à l'entreprise IYA Limited. Ceux-ci étant :</p>
-                        <p>❍ Permettre aux utilisateurs de se connecter à leur compte, et, s’ils n’en possèdent pas, faire une demande aux admin du site pour en obtenir un.</p>
-                        <p>❍ Permettre aux clients de s’abonner aux différents services du site, de résilier leur abonnement quand ils le souhaitent (selon les conditions du contrat).</p>
-                        <p>❍ Fonctionnalité de pings accessible à n'importe qui.</p>
-                        <p>❍ Permettre aux admininistrateurs de gérer les droits des clients quand ils le souhaitent, de rétrograder des personnes, …</p>
-                        <p>❍ Permettre aux administrateurs et aux utilisateurs de pouvoir ajouter et consulter une facture. Ils peuvent aussi procéder au paiement de celle-ci.</p>
-                        <p>❍ Permettre aux utilisateurs de pouvoir créer des sous-utilisateurs.</p>
-                        <p>❍ Rédaction d'un document de spécification: c'est-à-dire réaliser des diagrammes d'activité, diagrammes de cas d'utilisation, dictionnaires de données, wireframes pour chaque fonctionnalité.</p>
-                        <p>❍ Rédaction d'un guide d'utilisation du site.</p> 
+                        <p>Création d'une application en Laravel permettant de centraliser toutes les activités et modules étant essentiels et utiles à l'entreprise IYA Limited (cf: <a href="/my-achievements">Mes réalisations</a>).</p>
 					</div> 
 					<div id="warehouseman">
                         <h3>SIMASTOCK</h3>
@@ -149,63 +142,63 @@ const AboutMe = () => {
 				    <h2>Mes compétences</h2>
 				    <div id="languages">
 					    <h3>Langues</h3>					
-                        <img src={France} alt="france" title="Français (courant)" />
-                        <img src={Angleterre} alt="angleterre" title="Anglais (niveau B2)" />
-                        <img src={USA} alt="usa" title="Anglais (niveau B2)" />
-                        <img src={Espagne} alt="espagne" title="Espagnol (notions)" /> 
+                        <img src={France} alt="france" title="Français (courant)" width={'10%'} />
+                        <img src={Angleterre} alt="angleterre" title="Anglais (niveau B2)" width={'10%'} />
+                        <img src={USA} alt="usa" title="Anglais (niveau B2)" width={'10%'} />
+                        <img src={Espagne} alt="espagne" title="Espagnol (notions)" width={'10%'} /> 
 				    </div>
 				    <div id="programming-languages">
 					    <h3>Langages de programmation</h3>
                         <div class="skills">
                             <span>Programmation :</span>
-                            <img src={CCpp} alt="c-cpp" title="C/C++" />
-                            <img src={CSharp} alt="csharp" title="C#" />
-                            <img src={Python} alt="python" title="Python" />
-                            <img src={Java} alt="java" title="Java" />
+                            <img src={CCpp} alt="c-cpp" title="C/C++" width={'10%'} />
+                            <img src={CSharp} alt="csharp" title="C#" width={'10%'} />
+                            <img src={Python} alt="python" title="Python" width={'10%'} />
+                            <img src={Java} alt="java" title="Java" width={'10%'} />
                             </div>
                         <div class="skills">
                             <span>Web :</span>
-                            <img src={HtmlCss} alt="html-css" title="HTML/CSS" />
-                            <img src={Php} alt="php" title="PHP" />
-                            <img src={Laravel} alt="laravel" title="Laravel" />
-                            <img src={Angular} alt="angular" title="Angular" />
-                            <img src={ReactJS} alt="react-js" title="React.js" />
-                            <img src={JavaScript} alt="javascript" title="JavaScript" />
-                            <img src={TypeScript} alt="typescript" title="TypeScript" />
+                            <img src={HtmlCss} alt="html-css" title="HTML/CSS" width={'10%'} />
+                            <img src={Php} alt="php" title="PHP" width={'10%'} />
+                            <img src={Laravel} alt="laravel" title="Laravel" width={'10%'} />
+                            <img src={Angular} alt="angular" title="Angular" width={'10%'} />
+                            <img src={ReactJS} alt="react-js" title="React.js" width={'10%'} />
+                            <img src={JavaScript} alt="javascript" title="JavaScript" width={'10%'} />
+                            <img src={TypeScript} alt="typescript" title="TypeScript" width={'10%'} />
                             </div>
                         <div class="skills">
                             <span>Interfaces graphiques :</span>
-                            <img src={XAML} alt="xaml" title="XAML" />
-                            <img src={VisualBasic} alt="visual-basic" title="Visual Basic" />
-                            <img src={PythonTkinter} alt="python-tkinter" title="Tkinter" />
+                            <img src={XAML} alt="xaml" title="XAML" width={'10%'} />
+                            <img src={VisualBasic} alt="visual-basic" title="Visual Basic" width={'10%'} />
+                            <img src={PythonTkinter} alt="python-tkinter" title="Tkinter" width={'10%'} />
                         </div>
                         <div class="skills">
                             <span>Bases de données :</span>
-                            <img src={MySQL} alt="mysql" title="MySQL" />
-                            <img src={PostgreSQL} alt="postgresql" title="PostgreSQL" />
-                            <img src={NoSQL} alt="nosql" title="NoSQL" />			
+                            <img src={MySQL} alt="mysql" title="MySQL" width={'10%'} />
+                            <img src={PostgreSQL} alt="postgresql" title="PostgreSQL" width={'10%'} />
+                            <img src={NoSQL} alt="nosql" title="NoSQL" width={'10%'} />			
                         </div>
                     </div>
                     <div id="softwares">
                         <h3>Logiciels</h3>
                         <div class="skills">
 					        <span>Developpement informatique :</span>
-                            <img src={VisualStudioCode} alt="visual-studio-code" title="Visual Studio Code" />
-                            <img src={VisualStudio} alt="visual-studio" title="Visual Studio" />
-                            <img src={IntelliJ} alt="intellij" title="IntelliJ IDEA" />
-                            <img src={PhpStorm} alt="php-storm" title="PHP Storm" />
-                            <img src={Git} alt="git" title="Git" />
+                            <img src={VisualStudioCode} alt="visual-studio-code" title="Visual Studio Code" width={'10%'} />
+                            <img src={VisualStudio} alt="visual-studio" title="Visual Studio" width={'10%'} />
+                            <img src={IntelliJ} alt="intellij" title="IntelliJ IDEA" width={'10%'} />
+                            <img src={PhpStorm} alt="php-storm" title="PHP Storm" width={'10%'} />
+                            <img src={Git} alt="git" title="Git" width={'10%'} />
                         </div>
                         <div class="skills">
                             <span>Outils d'organisation :</span>
-                            <img src={Trello} alt="trello" title="Trello" />
-                            <img src={JiraSoftware} alt="jira-software" title="Jira software" />
+                            <img src={Trello} alt="trello" title="Trello" width={'10%'} />
+                            <img src={JiraSoftware} alt="jira-software" title="Jira software" width={'10%'} />
                         </div>
                         <div class="skills">
                             <span>Architecture :</span> 
-                            <img src={AutoCAD} alt="autocad" title="AutoCAD" />
-                            <img src={RevitArchitecture} alt="revit-architecture" title="Revit Architecture" />	
-                            <img src={SketchUp} alt="sketchup" title="SketchUp" />		
+                            <img src={AutoCAD} alt="autocad" title="AutoCAD" width={'10%'} />
+                            <img src={RevitArchitecture} alt="revit-architecture" title="Revit Architecture" width={'10%'} />	
+                            <img src={SketchUp} alt="sketchup" title="SketchUp" width={'10%'} />		
                         </div>
                     </div>
                 </div>

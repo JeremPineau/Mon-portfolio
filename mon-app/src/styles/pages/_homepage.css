@@ -1,17 +1,11 @@
-.homepage h1 {
-    text-align: center;
-}
 #presentation {
-    margin: 5% auto auto auto;
+    margin: 5% auto 5% auto;
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
 #jeremie {
     margin: auto;
     text-align: center;
-}
-#jeremie img {
-    width: 60%;
 }
 #description {
     margin: auto 10% auto auto;

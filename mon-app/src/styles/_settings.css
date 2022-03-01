@@ -2,6 +2,9 @@ html, body {
     background: rgba(255, 255, 255, 1);
     font-family: sans-serif;
 }  
+#section {
+    margin: 5% auto 5% auto; 
+}
 span {
     text-decoration: underline;
 }

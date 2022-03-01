@@ -1,0 +1,12 @@
+#section {
+    margin: 5% auto 5% auto; 
+}
+#section h2 {
+    text-align: center;
+}
+#projet-miellerie-paca, #projet-administration-customer-portal, #projet-ventes-fruits-legumes {
+    width: 50%;
+    margin: 5% auto auto auto;
+    padding: 5%;
+    border: 2px solid black;
+}

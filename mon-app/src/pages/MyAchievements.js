@@ -3,16 +3,40 @@ import Navigation from '../components/Navigation';
 
 const MyAchievements = () => {
     return (
-        <div>
+        <div className="my-achievements">
             <Navigation />
             <h1>Mes réalisations</h1> 
-            <p>
-                Eu ullamco aliquip ipsum esse quis. Ad tempor laborum id laborum commodo dolore excepteur nostrud mollit sunt labore culpa in. Sint anim esse proident qui mollit sint pariatur ea. Et nostrud laborum mollit ut qui in velit eiusmod veniam aliqua mollit dolore. Minim duis commodo non tempor. Est proident est id irure laboris incididunt duis.
-                Ex sit adipisicing incididunt minim amet nostrud ad voluptate velit labore pariatur. Deserunt exercitation irure esse reprehenderit duis amet. Nulla ut irure qui sint esse exercitation incididunt tempor minim nisi nostrud. Eu consectetur minim cupidatat aute quis do ipsum. Aute fugiat qui labore ullamco et irure. Lorem ex veniam cupidatat adipisicing elit sit ullamco.
-                Fugiat irure laborum mollit exercitation veniam fugiat dolore id adipisicing ut commodo id laborum pariatur. Nulla ipsum commodo aute aute nulla ullamco nostrud do. Ex sint ex proident exercitation Lorem. Ullamco ipsum commodo dolore mollit id. Ex nisi nulla veniam incididunt cillum est id in sunt anim laboris eu dolore. Eu Lorem et pariatur et occaecat non sit laborum irure tempor. Deserunt et incididunt commodo id nostrud dolore ad.
-                Voluptate culpa tempor ad voluptate tempor consectetur minim in aliquip aliqua. Amet anim et ut do ea aliqua deserunt ad qui duis laborum officia. Minim voluptate consectetur sunt quis ut eu exercitation qui ullamco fugiat nisi. Ad sit non incididunt commodo. Non in nulla adipisicing officia. Qui sint quis dolore mollit qui duis ut cupidatat esse.
-                Sunt ex excepteur officia adipisicing duis qui minim id id irure occaecat. Excepteur eu eu elit velit pariatur do. Ullamco exercitation voluptate consequat do proident sunt veniam proident incididunt voluptate. Reprehenderit laborum eu cupidatat in do. Excepteur cupidatat in minim culpa ullamco quis nostrud culpa esse sint qui id eiusmod elit. Cupidatat sunt ut deserunt labore proident id.
-            </p>
+            
+            <div id="section">
+                <div id="projet-miellerie-paca">
+                    <h2>Projet miellerie PACA</h2>
+                    <p><span>Description :</span> Refonte d'un site web vitrine existant pour des apiculteurs.</p> 
+					<p><span>Framework :</span> Angular 13.1.2</p>
+                    <p><span>Langages de programmation :</span> HTML/CSS, TypeScript 4.5.2</p>
+                    <p><span>Base de données :</span> NoSQL (Firebase 9.6.4)</p>
+                </div>
+                <div id="projet-administration-customer-portal">
+                    <h2>Projet portail administration</h2>
+                    <p><span>Description :</span> Notre application est un portail de gestion de comptes clients proposant plusieurs services mis à leur disposition et leur permettant de faciliter leur travail. Les clients de IYA Limited peuvent désormais ajouter et consulter leurs factures depuis le site. Ils ont accès à la gestion de leurs prestations, peuvent apporter une réponse sur la qualité du service proposé. Ils peuvent également créer un devis et y avoir accès, avoir la possibilité d'ajouter un sous-utilisateur et de gérer ses droits. Ceux-ci étant :</p>
+					<p>❍ Permettre aux utilisateurs de se connecter à leur compte, et, s’ils n’en possèdent pas, faire une demande aux admin du site pour en obtenir un.</p>
+					<p>❍ Permettre aux clients de s’abonner aux différents services du site, de résilier leur abonnement quand ils le souhaitent (selon les conditions du contrat).</p>
+					<p>❍ Fonctionnalité de pings accessible à n'importe qui.</p>
+					<p>❍ Permettre aux admininistrateurs de gérer les droits des clients quand ils le souhaitent, de rétrograder des personnes, …</p>
+					<p>❍ Permettre aux administrateurs et aux utilisateurs de pouvoir ajouter et consulter une facture. Ils peuvent aussi procéder au paiement de celle-ci.</p>
+					<p>❍ Permettre aux utilisateurs de pouvoir créer des sous-utilisateurs.</p>
+					<p>❍ Rédaction d'un document de spécification: c'est-à-dire réaliser des diagrammes d'activité, diagrammes de cas d'utilisation, dictionnaires de données, wireframes pour chaque fonctionnalité.</p>
+					<p><span>Framework :</span> Laravel 4.2.7</p>
+                    <p><span>Langages de programmation :</span> PHP 7.4.20, Composer 2.1.3, Node.js 14.17.3 LTS</p>
+                    <p><span>Base de données :</span> MySQL Server 8.0.25</p>
+					<p><span>En collaboration avec :</span> Romain Benhamza, Quentin Duperon</p>
+                </div> 
+                <div id="projet-ventes-fruits-legumes">
+                    <h2>Projet ventes fruits/légumes</h2>
+                    <p><span>Description :</span> Création d'un site web débutant de ventes de fruits et de légumes (ajout d'articles et paiement non fonctionnels).</p>
+					<p><span>Langages de programmation :</span> HTML/CSS</p>
+					<p><span>En collaboration avec :</span> Arthur Palma</p>
+                </div>
+            </div>
         </div>
     );
 };
