@@ -13,9 +13,26 @@ h1 {
 #section {
     margin: 5% auto; 
 }
+#section h2 {
+    text-align: center;
+}
 span {
     text-decoration: underline;
 }
 .italic {
     font-style: italic;
+}
+.gap {
+    margin: auto 5%;
+}
+.space {
+    height: 1em; 
+}
+a {
+    color: rgb(128,128,128);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(70,130,180);
+    transition: .5s;
 }
