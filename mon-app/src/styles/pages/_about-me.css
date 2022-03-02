@@ -5,9 +5,6 @@
 #career-list img, #experiences-list img, #skills-list img {
     vertical-align: middle;
 }
-#career-list {
-    text-align: center;
-}
 #experiences-list h3, #skills-list h3 {
     text-align: center;
 }
@@ -22,10 +19,4 @@
     margin: 2.5% auto auto auto;
     padding: 2.5% 5%;
     display: inline-block;
-}
-.skills {
-    margin: 2.5% auto auto auto;
-}
-.skills img {
-    margin: 5% 0;
 }

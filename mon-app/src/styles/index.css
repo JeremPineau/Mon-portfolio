@@ -1,6 +1,8 @@
 @import "./_settings";
 
 @import "./components/_navigation.css";
+@import "./components/_career.css";
+@import "./components/_skills.css";
 @import "./components/_footer-fixed.css";
 @import "./components/_footer-relative.css";
 

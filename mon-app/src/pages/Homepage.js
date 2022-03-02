@@ -1,7 +1,7 @@
 import React from 'react';
+import Jeremie from '../assets/homepage/jeremie.png';
 import Navigation from '../components/Navigation';
 import FooterFixed from '../components/FooterFixed';
-import Jeremie from '../assets/homepage/jeremie.png';
 
 const Homepage = () => {
     return (
