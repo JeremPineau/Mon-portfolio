@@ -17,7 +17,7 @@ const Homepage = () => {
                     <div id="description">
                         <h3>Jérémie Pineau</h3> 
                         <p>Passionné par le développement web, je souhaiterais vivre de ma passion.</p>
-                        <p>Mes diverses expériences m'ont apporté beaucoup de connaissances que je souhaite, aujourd'hui, mettre à contribution en intégrant une équipe de devéloppeurs.</p>
+                        <p>Mes diverses expériences m'ont apporté beaucoup de connaissances que je souhaite, aujourd'hui, mettre à contribution en intégrant une équipe de développeurs.</p>
                         <p>Motivation, perfectionnisme et soif d'apprendre sont les adjectifs qui me définissent le mieux, comme en témoigne mon parcours scolaire atypique.</p>
                     </div>
                 </div>

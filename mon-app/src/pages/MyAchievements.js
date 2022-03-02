@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
+import ScrollButton from '../components/ScrollButton';
 import FooterRelative from '../components/FooterRelative';
 
 const MyAchievements = () => {
@@ -39,7 +40,8 @@ const MyAchievements = () => {
 					<p><span>Langages de programmation :</span> HTML/CSS</p>
 					<p><span>En collaboration avec :</span> Arthur Palma</p>
                 </div>
-            </div>
+            </div> 
+            <ScrollButton />
             <FooterRelative />
         </div>
     );
