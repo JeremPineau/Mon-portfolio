@@ -8,7 +8,7 @@ export const Button = styled.div`
    cursor: pointer;
    color: rgb(70,130,180);
     
-   @media(min-width: 252.5px) and (max-width: 400px) {
+   @media(min-width: 275px) and (max-width: 400px) {
       font-size: .25em;
       bottom: 3em;
    }

@@ -22,7 +22,7 @@
     float: right;
 }
 #homepage-nav li, #about-me-nav li, #my-achievements-nav li, #contact-me-nav li {
-    padding: 3vw;
+    padding: 3vw 2.5vw;
 }
 #homepage-nav:hover, #about-me-nav:hover, #my-achievements-nav:hover, #contact-me-nav:hover {
 	color: rgb(70,130,180);

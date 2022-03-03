@@ -12,7 +12,7 @@ const Homepage = () => {
             <div id="section">
                 <div id="presentation">
                     <div id="jeremie">
-                        <img src={Jeremie} alt="jeremie" width={'60%'} />
+                        <img src={Jeremie} alt="jeremie" width={'50%'} />
                     </div>
                     <div id="description">
                         <h3>Jérémie Pineau</h3> 

@@ -13,13 +13,13 @@ const Hobbies = () => {
             <div id="hobbies-list">
                 <h2>Mes centres d'intérêt</h2>
                 <div id="hobbies">
-                    <img src={VideoGames} alt="jeux-video" width={'15%'} title="Les jeux-vidéo" />&emsp;
-                    <img src={ComputerScience} alt="informatique" width={'10%'} title="L'informatique" />&emsp;
-                    <img src={Drawing} alt="dessin" width={'10%'} title="Le dessin" />&emsp;
-                    <img src={Cinema} alt="cinema" width={'10%'} title="Le cinéma" />&emsp;
-                    <img src={Karting} alt="karting" width={'10%'} title="Le karting" />&emsp;
-                    <img src={Cuisine} alt="cuisine" width={'10%'} title="La cuisine" />&emsp;
-                    <img src={Music} alt="musique" width={'10%'} title="La musique" />
+                    <img src={VideoGames} alt="jeux-video" width={'12.5%'} title="Les jeux-vidéo" />&emsp;
+                    <img src={ComputerScience} alt="informatique" width={'8%'} title="L'informatique" />&emsp;
+                    <img src={Drawing} alt="dessin" width={'8%'} title="Le dessin" />&emsp;
+                    <img src={Cinema} alt="cinema" width={'8%'} title="Le cinéma" />&emsp;
+                    <img src={Karting} alt="karting" width={'8%'} title="Le karting" />&emsp;
+                    <img src={Cuisine} alt="cuisine" width={'8%'} title="La cuisine" />&emsp;
+                    <img src={Music} alt="musique" width={'8%'} title="La musique" />
                 </div>
             </div>
         </div>

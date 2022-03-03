@@ -3,13 +3,13 @@
 }
 #informations { 
     margin: 1em auto auto auto;
-    width: 15%;
+    width: 35%;
     display: grid;
 }
 #mail, #phone, #location { 
     margin: .5em 0;
 }
-#mail img, #mail a, #phone img, #phone p, #location img, #location p {
+#mail img, #mail a, #phone img, #phone p {
     display: inline-block;
 	vertical-align: middle;
 }
