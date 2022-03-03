@@ -1,8 +1,15 @@
-#contact { 
-    width: 50%;
-    margin: auto;
-    padding: .75% 5%;
+#map {
+    text-align: center;
 }
 #informations { 
-    text-align: center;
+    margin: 1em auto auto auto;
+    width: 15%;
+    display: grid;
+}
+#mail, #phone, #location { 
+    margin: .5em 0;
+}
+#mail img, #mail a, #phone img, #phone p, #location img, #location p {
+    display: inline-block;
+	vertical-align: middle;
 }

@@ -1,6 +1,13 @@
 #cat {
     width: 4em; 
-    margin: .4em auto auto 1em;
+    margin: .4em 2em auto 1em;
+}
+#linkedin, #gitlab, #github {
+    vertical-align: middle;
+    margin: auto auto 3.25em .5em;
+}
+#linkedin:hover, #gitlab:hover, #github:hover {
+    opacity: 70%;
 }
 #nav {
 	background: rgb(211,211,211);
