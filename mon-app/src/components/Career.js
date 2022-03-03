@@ -11,7 +11,7 @@ const Career = () => {
     return (
         <div className="career">
             <div id="career-list">
-            <h2>Mon parcours</h2>
+                <h2>Mon parcours</h2>
                 <div id="licence">
                     <h3>2021 - 2022</h3>
                     <h3>EPSI, Lille</h3>

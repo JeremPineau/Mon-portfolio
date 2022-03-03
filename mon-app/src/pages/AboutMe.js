@@ -3,6 +3,7 @@ import Navigation from '../components/Navigation';
 import Career from '../components/Career';
 import Experiences from '../components/Experiences';
 import Skills from '../components/Skills';
+import Hobbies from '../components/Hobbies';
 import ScrollButton from '../components/ScrollButton';
 import FooterRelative from '../components/FooterRelative';
 
@@ -17,6 +18,7 @@ const AboutMe = () => {
                 <Career />
                 <Experiences />
                 <Skills />
+                <Hobbies />
                 <ScrollButton />
             </div>
             <FooterRelative />

@@ -2,7 +2,7 @@
     margin: 10% auto auto auto;
     display: grid;
 }
-#career-list img, #experiences-list img, #skills-list img {
+#career-list img, #experiences-list img, #skills-list img, #hobbies-list img {
     vertical-align: middle;
 }
 #experiences-list h3, #skills-list h3 {
