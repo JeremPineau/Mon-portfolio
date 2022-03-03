@@ -1,10 +1,10 @@
 #cat {
-    width: 4em; 
-    margin: .4em 2em auto 1em;
+    width: 5.5%; 
+    margin: 1% 5% auto 2%;
 }
 #linkedin, #gitlab, #github {
     vertical-align: middle;
-    margin: auto auto 3.25em .5em;
+    margin: auto auto 5% 1%;
 }
 #linkedin:hover, #gitlab:hover, #github:hover {
     opacity: 70%;
@@ -14,7 +14,7 @@
 	list-style-type: none; 
 	top: 0;
 	width: 100%;
-    height: 5em;
+    height: 7.5vw;
 }
 #homepage-nav, #about-me-nav, #my-achievements-nav, #contact-me-nav {
     color: rgb(0,0,0);
@@ -22,7 +22,7 @@
     float: right;
 }
 #homepage-nav li, #about-me-nav li, #my-achievements-nav li, #contact-me-nav li {
-    padding: 1.85em 1.5em;
+    padding: 3vw;
 }
 #homepage-nav:hover, #about-me-nav:hover, #my-achievements-nav:hover, #contact-me-nav:hover {
 	color: rgb(70,130,180);
