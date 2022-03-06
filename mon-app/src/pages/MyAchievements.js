@@ -34,7 +34,7 @@ const MyAchievements = () => {
                     <div id="projet-workshop-handicap">
                         <h2>Projet workshop handicap&emsp;<img src={Angleterre} alt="angleterre" width={'5%'} /></h2>
                         <p><span>Description :</span> Il fallait réfléchir à une problèmatique liée au Handicap (exclusion, matériel non adapté, accessibilité, ...) dans le milieu de la formation professionnelle et proposer une solution pouvant répondre à cette problèmatique.</p>
-                        <p>Non avons choisi de créer un site web pour faciliter la vie des personnes atteintes de trisomie 21 et d'un guide d'utilisation (ou launcher) pour les accompagnants.</p> 
+                        <p>Nous avons choisi de créer un site web pour faciliter la vie des personnes atteintes de trisomie 21 et d'un guide d'utilisation (ou launcher) pour les accompagnants.</p> 
                         <p><span>Framework :</span> Symphony</p>
                         <p><span>Langages de programmation :</span> PHP, Twig, CSS, Shell, JavaScript + Visual Basic, C#</p>
                         <p><span>En collaboration avec :</span> Quentin Vandromme, Thomas Ducoulombier, Vincent Richir, Geoffrey Lepingle</p>

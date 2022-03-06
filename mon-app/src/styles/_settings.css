@@ -1,5 +1,5 @@
 html, body {
-    background: rgb(255,255,255);
+    background: url(../assets/bg.jpg) fixed;
     font-family: sans-serif;
     height: 100%;
     width: 100%;
@@ -7,9 +7,7 @@ html, body {
     padding: 0;
     display: table;
 }  
-h1 {
-    margin: 2.5% 5%;
-}
+
 #section {
     margin: 5% auto 7.5% auto; 
 }
@@ -38,6 +36,7 @@ a:hover {
 }
 h1{
     font-size: 1.6vw;
+    margin: 2.5% 5%;
 }
 h2 {
     font-size: 1.4vw;
