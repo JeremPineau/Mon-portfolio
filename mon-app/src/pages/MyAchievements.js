@@ -33,10 +33,11 @@ const MyAchievements = () => {
                     <h2>Bachelor informatique - EPSI</h2>
                     <div id="projet-workshop-handicap">
                         <h2>Projet workshop handicap&emsp;<img src={Angleterre} alt="angleterre" width={'5%'} /></h2>
-                        <p><span>Description :</span> Création d'un site web pour faciliter la vie des personnes atteintes de trisomie 21 et d'un guide d'utilisation (ou launcher).</p> 
+                        <p><span>Description :</span> Il fallait réfléchir à une problèmatique liée au Handicap (exclusion, matériel non adapté, accessibilité, ...) dans le milieu de la formation professionnelle et proposer une solution pouvant répondre à cette problèmatique.</p>
+                        <p>Non avons choisi de créer un site web pour faciliter la vie des personnes atteintes de trisomie 21 et d'un guide d'utilisation (ou launcher) pour les accompagnants.</p> 
                         <p><span>Framework :</span> Symphony</p>
                         <p><span>Langages de programmation :</span> PHP, Twig, CSS, Shell, JavaScript + Visual Basic, C#</p>
-                        <p><span>En collaboration avec :</span> Pierre Abraham, Thomas Ducoulombier, Vincent Richir, Geoffrey Lepingle</p>
+                        <p><span>En collaboration avec :</span> Quentin Vandromme, Thomas Ducoulombier, Vincent Richir, Geoffrey Lepingle</p>
                     </div>
                 </div>
                 <div id="iut-lens-achievements">
@@ -59,15 +60,15 @@ const MyAchievements = () => {
                         <p><span>En collaboration avec :</span> Romain Benhamza, Quentin Duperon</p>
                     </div> 
                     <div id="projet-ludotheque2">
-                        <h2>Projet Agil'IT (semestre 4)&emsp;<img src={Espagne} alt="espagne" width={'5%'} /></h2>
+                        <h2>Projet marathon Agil'IT (semestre 4)&emsp;<img src={Espagne} alt="espagne" width={'5%'} /></h2>
                         <p><span>Description :</span> Création d'une ludothèque en méthode Agile.</p>
                         <p><span>Framework :</span> Angular</p>
                         <p><span>Langages de programmation :</span> TypeScript</p>
                         <p><span>En collaboration avec :</span> Charly Privat, Louis Prevosteau, Quentin Duperon, Niko Sron</p>
                     </div>
                     <div id="projet-ludotheque1">
-                        <h2>Projet ludothèque (semestre 3)&emsp;<img src={France} alt="france" width={'5%'} /></h2>
-                        <p><span>Description :</span> Création d'une ludothèque.</p>
+                        <h2>Projet marathon ludothèque (semestre 3)&emsp;<img src={France} alt="france" width={'5%'} /></h2>
+                        <p><span>Description :</span> Création d'une ludothèque qui permet aux utilisateurs de naviguer parmi une liste de jeux, d'en ajouter, de voir sa description et de laisser un avis.</p>
                         <p><span>Framework :</span> Laravel</p>
                         <p><span>Langages de programmation :</span> PHP</p>
                         <p><span>En collaboration avec :</span> Grégoire Caron, Cyril Roskoschny, Maxime Lagache, Thibaut Carpentier, Charly Privat</p>
