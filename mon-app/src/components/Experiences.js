@@ -11,8 +11,8 @@ const Experiences = () => {
     return (
         <div className="experiences">
             <div id="experiences-list">
-                <h2>Mes experiences professionnelles</h2>
-                <div id="internship2">
+                <h2 data-aos="fade-up">Mes experiences professionnelles</h2>
+                <div id="internship2" data-aos="fade-up">
                     <h3>IYA Limited</h3>
                     <div class="pics">
                         <img src={IyaLimited} alt="iya-limited" width={'40%'} />
@@ -25,7 +25,7 @@ const Experiences = () => {
                     <p>Création d'une application en Laravel permettant de centraliser toutes les activités et modules étant essentiels et utiles à l'entreprise IYA Limited.</p>
                     <p>Voir <a href="/my-achievements">mes réalisations</a></p>
                 </div> 
-                <div id="warehouseman">
+                <div id="warehouseman" data-aos="fade-up">
                     <h3>SIMASTOCK</h3>
                     <div class="pics">
                         <img src={Simastock} alt="simastock" width={'40%'} />
@@ -41,7 +41,7 @@ const Experiences = () => {
                         <p>❍ Picking, nettoyage</p>
                     </div>
                 </div>
-                <div id="production-worker">
+                <div id="production-worker" data-aos="fade-up">
                     <h3>Wienerberger</h3> 
                     <div class="pics">
                         <img src={Wienerberger} alt="wienerberger" width={'40%'} />
@@ -57,7 +57,7 @@ const Experiences = () => {
                         <p>❍ Conditionnement</p>
                     </div>
                 </div>
-                <div id="internship1">
+                <div id="internship1" data-aos="fade-up">
                     <h3>Nord France Constructions</h3>
                     <div class="pics">
                         <img src={NordFranceConstructions} alt="nord-france-constructions" width={'60%'} />
@@ -72,7 +72,7 @@ const Experiences = () => {
                         <p>❍ Participation aux OPPBTP (prévention)</p>
                         <p>❍ Tenue du journal de chantier</p> 
                     </div>
-                    <a href="https://www.adele.org/residence/2480/maison-blanche-2480/lille-59" target="_blank">[ Pour plus d'informations ]</a>
+                    <a href="https://www.adele.org/residence/2480/maison-blanche-2480/lille-59" target="_blank" rel="noreferrer">[ Pour plus d'informations ]</a>
                 </div>
             </div> 
         </div>

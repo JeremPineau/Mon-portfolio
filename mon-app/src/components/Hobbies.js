@@ -11,8 +11,8 @@ const Hobbies = () => {
     return (
         <div className="hobbies">
             <div id="hobbies-list">
-                <h2>Mes centres d'intérêt</h2>
-                <div id="hobbies">
+                <h2 data-aos="fade-up">Mes centres d'intérêt</h2>
+                <div id="hobbies" data-aos="fade-up">
                     <img src={VideoGames} alt="jeux-video" width={'12.5%'} title="Les jeux-vidéo" />&emsp;
                     <img src={ComputerScience} alt="informatique" width={'8%'} title="L'informatique" />&emsp;
                     <img src={Drawing} alt="dessin" width={'8%'} title="Le dessin" />&emsp;

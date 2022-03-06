@@ -16,7 +16,7 @@ const ContactMe = () => {
                     </div>
                     <div id="informations">
                         <div id="mail">
-                            <img src={Mail} alt="mail" width={'10%'} />&emsp;<a href="mailto:pi.jeremie@outlook.fr" target="_blank"> pi.jeremie@outlook.fr</a>
+                            <img src={Mail} alt="mail" width={'10%'} />&emsp;<a href="mailto:pi.jeremie@outlook.fr" target="_blank" rel="noreferrer"> pi.jeremie@outlook.fr</a>
                         </div>
                         <div id="phone">
                             <img src={Phone} alt="phone" width={'10%'} />&emsp;<p> 06 47 98 62 73</p>

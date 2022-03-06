@@ -35,8 +35,8 @@ const Skills = () => {
     return (
         <div className="skills">
             <div id="skills-list">
-                <h2>Mes compétences</h2>
-                <div id="languages">
+                <h2 data-aos="fade-up">Mes compétences</h2>
+                <div id="languages" data-aos="fade-up">
                     <h3>Langues</h3>					
                     <div class="pics">&emsp;
                         <img src={France} alt="france" title="Français (courant)" width={'30%'} />&emsp;
@@ -46,7 +46,7 @@ const Skills = () => {
                         <img src={Espagne} alt="espagne" title="Espagnol (notions)" width={'30%'} /> 
                     </div>
                 </div>
-                <div id="programming-languages">
+                <div id="programming-languages" data-aos="fade-up">
                     <h3>Langages de programmation</h3>
                     <div class="skills">
                         <span>Programmation :</span>
@@ -86,7 +86,7 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
-                <div id="softwares">
+                <div id="softwares" data-aos="fade-up">
                     <h3>Logiciels</h3>
                     <div class="skills">
                         <span>Developpement informatique :</span>

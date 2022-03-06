@@ -1,5 +1,9 @@
 #diversity {
-    margin: auto 20%;
+    margin: auto 25%;
+    text-align: center;
+}
+#diversity img {
+    margin: 5% auto auto auto;
 }
 #project-achievements, #epsi-achievements, #iut-lens-achievements, #iut-amiens-achievements {
     margin: 15% auto;

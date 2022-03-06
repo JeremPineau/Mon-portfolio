@@ -1,3 +1,10 @@
+#a-propos-de-moi {
+    margin: auto 25%;
+    text-align: center;
+}
+#a-propos-de-moi img {
+    margin: 5% auto auto auto;
+}
 #career-list, #experiences-list, #skills-list, #hobbies-list {
     margin: 10% auto;
     display: grid;

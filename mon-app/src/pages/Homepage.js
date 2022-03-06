@@ -6,6 +6,7 @@ import FooterFixed from '../components/FooterFixed';
 const Homepage = () => {
     return (
         <div className="homepage">
+            <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"></link>
             <Navigation />
             <h1>Bienvenue sur mon portfolio !</h1>
 

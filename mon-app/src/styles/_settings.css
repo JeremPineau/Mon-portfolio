@@ -7,9 +7,17 @@ html, body {
     padding: 0;
     display: table;
 }  
-
 #section {
     margin: 5% auto 7.5% auto; 
+    animation: apparition 1s linear;
+}
+@keyframes apparition {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
 }
 #section h2 {
     text-align: center;
