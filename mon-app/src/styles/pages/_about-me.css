@@ -1,5 +1,5 @@
-#career-list, #experiences-list, #skills-list {
-    margin: 20% auto;
+#career-list, #experiences-list, #skills-list, #hobbies-list {
+    margin: 10% auto;
     display: grid;
 }
 #career-list img, #experiences-list img, #skills-list img, #hobbies-list img {

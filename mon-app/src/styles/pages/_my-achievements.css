@@ -1,6 +1,14 @@
-#projet-miellerie-paca, #projet-administration-customer-portal, #projet-ventes-fruits-legumes {
+#diversity {
+    margin: auto 20%;
+}
+#project-achievements, #epsi-achievements, #iut-lens-achievements, #iut-amiens-achievements {
+    margin: 10% auto;
+    display: grid;
+}
+#projet-miellerie-paca, #projet-workshop-handicap, #projet-administration-customer-portal, #projet-ludotheque2, #projet-ludotheque1, #projet-qwirkle, #projet-ventes-fruits-legumes {
     border: .1em solid rgb(211,211,211);
     width: 50%;
-    margin: 20% auto;
+    margin: 2.5% auto auto auto;
     padding: 2.5% 5%;
+    display: inline-block;
 }
