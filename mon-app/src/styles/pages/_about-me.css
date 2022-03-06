@@ -6,8 +6,13 @@
     margin: 5% auto auto auto;
 }
 #career-list, #experiences-list, #skills-list, #hobbies-list {
-    margin: 10% auto;
+    margin: 15% auto;
     display: grid;
+}
+@media(max-width: 500px) {
+    #career-list, #experiences-list, #skills-list, #hobbies-list {
+        margin: 35% auto;
+    }
 }
 #career-list img, #experiences-list img, #skills-list img, #hobbies-list img {
     vertical-align: middle;
