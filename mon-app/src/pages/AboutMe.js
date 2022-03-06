@@ -22,7 +22,7 @@ const AboutMe = () => {
             
             <div id="section">
                 <div id="a-propos-de-moi">
-                    <p>Je vous présente mon parcours scolaire et professionnel, mes expériences, mes compétences ainsi que mes centres d'attention.</p>
+                    <p>Je vous présente mon parcours scolaire et professionnel, mes expériences, mes compétences ainsi que mes centres d'intérêts.</p>
                     <img src={Ordinateur} alt="à propos de moi" width={'50%'} />
                 </div>
                 <Career />
