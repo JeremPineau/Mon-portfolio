@@ -9,7 +9,7 @@
 #linkedin:hover, #gitlab:hover, #github:hover {
     opacity: 70%;
 }
-#nav {
+.navigation {
 	background: rgb(211,211,211);
 	list-style-type: none; 
 	top: 0;

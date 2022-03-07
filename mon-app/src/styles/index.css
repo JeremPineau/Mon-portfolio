@@ -4,8 +4,7 @@
 @import "./components/_career.css";
 @import "./components/_skills.css";
 @import "./components/_hobbies.css";
-@import "./components/_footer-fixed.css";
-@import "./components/_footer-relative.css";
+@import "./components/_footer.css";
 
 @import "./pages/_homepage.css";
 @import "./pages/_about-me.css";

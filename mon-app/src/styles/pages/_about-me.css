@@ -1,28 +1,29 @@
-#a-propos-de-moi {
+#about {
     margin: auto 25%;
     text-align: center;
 }
-#a-propos-de-moi img {
+#about img {
     margin: 5% auto auto auto;
 }
-#career-list, #experiences-list, #skills-list, #hobbies-list {
+
+
+.career, .experiences, .skills, .hobbies {
     margin: 15% auto;
     display: grid;
 }
 @media(max-width: 500px) {
-    #career-list, #experiences-list, #skills-list, #hobbies-list {
+    .career, .experiences, .skills, .hobbies {
         margin: 35% auto;
     }
 }
-#career-list img, #experiences-list img, #skills-list img, #hobbies-list img {
+.career img, .experiences img, .skills img, .hobbies img {
     vertical-align: middle;
 }
-#experiences-list h3, #skills-list h3 {
+.experiences h3, .skills h3, .pics {
     text-align: center;
 }
-.pics {
-    text-align: center;
-}
+
+
 #licence, #dut, #bts, 
 #internship2, #warehouseman, #production-worker, #internship1, 
 #languages, #programming-languages, #softwares  {

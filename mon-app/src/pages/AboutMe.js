@@ -18,12 +18,11 @@ const AboutMe = () => {
     return (
         <div className="about-me">
             <Navigation />
-            <h1>À propos de moi</h1> 
-            
+            <h1>À propos de moi</h1>  
             <div id="section">
-                <div id="a-propos-de-moi">
-                    <p>Je vous présente mon parcours scolaire et professionnel, mes expériences, mes compétences ainsi que mes centres d'intérêt.</p>
-                    <img src={Ordinateur} alt="à propos de moi" width={'50%'} />
+                <div id="about">
+                    <p>Je vous présente mon parcours scolaire, mes expériences professionnelles, mes compétences ainsi que mes centres d'intérêt.</p>
+                    <img src={Ordinateur} alt="a-propos-de-moi" width={'50%'} />
                 </div>
                 <Career />
                 <Experiences />

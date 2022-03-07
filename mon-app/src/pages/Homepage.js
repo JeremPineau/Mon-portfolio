@@ -8,7 +8,6 @@ const Homepage = () => {
         <div className="homepage">
             <Navigation />
             <h1>Bienvenue sur mon portfolio !</h1>
-
             <div id="section">
                 <div id="presentation">
                     <div id="jeremie">

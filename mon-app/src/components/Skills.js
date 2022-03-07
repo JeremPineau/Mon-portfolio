@@ -34,84 +34,82 @@ import SketchUp from '../assets/about-me/skills/softwares/architecture/sketchup.
 const Skills = () => {
     return (
         <div className="skills">
-            <div id="skills-list">
-                <h2 data-aos="fade-up">Mes compétences</h2>
-                <div id="languages" data-aos="fade-up">
-                    <h3>Langues</h3>					
-                    <div class="pics">&emsp;
-                        <img src={France} alt="france" title="Français (courant)" width={'30%'} />&emsp;
-                        <img src={Angleterre} alt="angleterre" title="Anglais (niveau B2)" width={'30%'} />&emsp;
-                        <div class="space" />
-                        <img src={USA} alt="usa" title="Anglais (niveau B2)" width={'30%'} />&emsp;
-                        <img src={Espagne} alt="espagne" title="Espagnol (notions)" width={'30%'} /> 
+            <h2 data-aos="fade-up">Mes compétences</h2>
+            <div id="languages" data-aos="fade-up">
+                <h3>Langues</h3>					
+                <div class="pics">&emsp;
+                    <img src={France} alt="france" title="Français (courant)" width={'30%'} />&emsp;
+                    <img src={Angleterre} alt="angleterre" title="Anglais (niveau B2)" width={'30%'} />&emsp;
+                    <div class="space" />
+                    <img src={USA} alt="usa" title="Anglais (niveau B2)" width={'30%'} />&emsp;
+                    <img src={Espagne} alt="espagne" title="Espagnol (notions)" width={'30%'} /> 
+                </div>
+            </div>
+            <div id="programming-languages" data-aos="fade-up">
+                <h3>Langages de programmation</h3>
+                <div class="skills-list">
+                    <span>Programmation :</span>
+                    <div class="pics">
+                        <img src={CCpp} alt="c-cpp" title="C/C++" width={'17.5%'} />&emsp;
+                        <img src={CSharp} alt="csharp" title="C#" width={'20%'} />&emsp;
+                        <img src={Python} alt="python" title="Python" width={'17.5%'} />&emsp;
+                        <img src={Java} alt="java" title="Java" width={'30%'} />
                     </div>
                 </div>
-                <div id="programming-languages" data-aos="fade-up">
-                    <h3>Langages de programmation</h3>
-                    <div class="skills">
-                        <span>Programmation :</span>
-                        <div class="pics">
-                            <img src={CCpp} alt="c-cpp" title="C/C++" width={'17.5%'} />&emsp;
-                            <img src={CSharp} alt="csharp" title="C#" width={'20%'} />&emsp;
-                            <img src={Python} alt="python" title="Python" width={'17.5%'} />&emsp;
-                            <img src={Java} alt="java" title="Java" width={'30%'} />
-                        </div>
-                    </div>
-                    <div class="skills">
-                        <span>Web :</span>
-                        <div class="pics">
-                            <img src={HtmlCss} alt="html-css" title="HTML/CSS" width={'30%'} />&emsp;
-                            <img src={Php} alt="php" title="PHP" width={'30%'} />&emsp;
-                            <img src={Laravel} alt="laravel" title="Laravel" width={'20%'} />&emsp;
-                            <img src={Angular} alt="angular" title="Angular" width={'22.5%'} />&emsp;
-                            <img src={JavaScript} alt="javascript" title="JavaScript" width={'17.5%'} />&emsp;
-                            <img src={TypeScript} alt="typescript" title="TypeScript" width={'17.5%'} />&emsp;
-                            <img src={ReactJS} alt="react-js" title="React.js" width={'25%'} />
-                        </div>
-                    </div>
-                    <div class="skills">
-                        <span>Interfaces graphiques :</span>
-                        <div class="pics">
-                            <img src={XAML} alt="xaml" title="XAML" width={'25%'} />&emsp;
-                            <img src={VisualBasic} alt="visual-basic" title="Visual Basic" width={'30%'} />&emsp;
-                            <img src={PythonTkinter} alt="python-tkinter" title="Tkinter" width={'20%'} />
-                        </div>
-                    </div>
-                    <div class="skills">
-                        <span>Bases de données :</span>
-                        <div class="pics">
-                            <img src={MySQL} alt="mysql" title="MySQL" width={'30%'} />&emsp;
-                            <img src={PostgreSQL} alt="postgresql" title="PostgreSQL" width={'20%'} />&emsp;
-                            <img src={NoSQL} alt="nosql" title="NoSQL" width={'20%'} />			
-                        </div>
+                <div class="skills-list">
+                    <span>Web :</span>
+                    <div class="pics">
+                        <img src={HtmlCss} alt="html-css" title="HTML/CSS" width={'30%'} />&emsp;
+                        <img src={Php} alt="php" title="PHP" width={'30%'} />&emsp;
+                        <img src={Laravel} alt="laravel" title="Laravel" width={'20%'} />&emsp;
+                        <img src={Angular} alt="angular" title="Angular" width={'22.5%'} />&emsp;
+                        <img src={JavaScript} alt="javascript" title="JavaScript" width={'17.5%'} />&emsp;
+                        <img src={TypeScript} alt="typescript" title="TypeScript" width={'17.5%'} />&emsp;
+                        <img src={ReactJS} alt="react-js" title="React.js" width={'25%'} />
                     </div>
                 </div>
-                <div id="softwares" data-aos="fade-up">
-                    <h3>Logiciels</h3>
-                    <div class="skills">
-                        <span>Developpement informatique :</span>
-                        <div class="pics">
-                            <img src={VisualStudioCode} alt="visual-studio-code" title="Visual Studio Code" width={'17.5%'} />&emsp;
-                            <img src={VisualStudio} alt="visual-studio" title="Visual Studio" width={'17.5%'} />&emsp;
-                            <img src={IntelliJ} alt="intellij" title="IntelliJ IDEA" width={'17.5%'} />&emsp;
-                            <img src={PhpStorm} alt="php-storm" title="PHP Storm" width={'17.5%'} />&emsp;
-                            <img src={Git} alt="git" title="Git" width={'20%'} />
-                        </div>
+                <div class="skills-list">
+                    <span>Interfaces graphiques :</span>
+                    <div class="pics">
+                        <img src={XAML} alt="xaml" title="XAML" width={'25%'} />&emsp;
+                        <img src={VisualBasic} alt="visual-basic" title="Visual Basic" width={'30%'} />&emsp;
+                        <img src={PythonTkinter} alt="python-tkinter" title="Tkinter" width={'20%'} />
                     </div>
-                    <div class="skills">
-                        <span>Outils d'organisation :</span>
-                        <div class="pics">
-                            <img src={Trello} alt="trello" title="Trello" width={'40%'} />&emsp;
-                            <img src={JiraSoftware} alt="jira-software" title="Jira software" width={'55%'} />
-                        </div>
+                </div>
+                <div class="skills-list">
+                    <span>Bases de données :</span>
+                    <div class="pics">
+                        <img src={MySQL} alt="mysql" title="MySQL" width={'30%'} />&emsp;
+                        <img src={PostgreSQL} alt="postgresql" title="PostgreSQL" width={'20%'} />&emsp;
+                        <img src={NoSQL} alt="nosql" title="NoSQL" width={'20%'} />			
                     </div>
-                    <div class="skills">
-                        <span>Architecture :</span> 
-                        <div class="pics">
-                            <img src={AutoCAD} alt="autocad" title="AutoCAD" width={'40%'} />
-                            <img src={RevitArchitecture} alt="revit-architecture" title="Revit Architecture" width={'30%'} />
-                            <img src={SketchUp} alt="sketchup" title="SketchUp" width={'50%'} />		
-                        </div>
+                </div>
+            </div>
+            <div id="softwares" data-aos="fade-up">
+                <h3>Logiciels</h3>
+                <div class="skills-list">
+                    <span>Developpement informatique :</span>
+                    <div class="pics">
+                        <img src={VisualStudioCode} alt="visual-studio-code" title="Visual Studio Code" width={'17.5%'} />&emsp;
+                        <img src={VisualStudio} alt="visual-studio" title="Visual Studio" width={'17.5%'} />&emsp;
+                        <img src={IntelliJ} alt="intellij" title="IntelliJ IDEA" width={'17.5%'} />&emsp;
+                        <img src={PhpStorm} alt="php-storm" title="PHP Storm" width={'17.5%'} />&emsp;
+                        <img src={Git} alt="git" title="Git" width={'20%'} />
+                    </div>
+                </div>
+                <div class="skills-list">
+                    <span>Outils d'organisation :</span>
+                    <div class="pics">
+                        <img src={Trello} alt="trello" title="Trello" width={'40%'} />&emsp;
+                        <img src={JiraSoftware} alt="jira-software" title="Jira software" width={'55%'} />
+                    </div>
+                </div>
+                <div class="skills-list">
+                    <span>Architecture :</span> 
+                    <div class="pics">
+                        <img src={AutoCAD} alt="autocad" title="AutoCAD" width={'40%'} />
+                        <img src={RevitArchitecture} alt="revit-architecture" title="Revit Architecture" width={'30%'} />
+                        <img src={SketchUp} alt="sketchup" title="SketchUp" width={'50%'} />		
                     </div>
                 </div>
             </div>

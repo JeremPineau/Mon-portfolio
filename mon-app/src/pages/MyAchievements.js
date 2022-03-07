@@ -20,8 +20,7 @@ const MyAchievements = () => {
     return (
         <div className="my-achievements">
             <Navigation />
-            <h1>Mes réalisations</h1> 
-            
+            <h1>Mes réalisations</h1>          
             <div id="section">
                 <div id="diversity">
                     <p>Comme j'aime la diversité dans mes relations, j'ai décidé d'associer un pays à chacun de mes projets.</p>

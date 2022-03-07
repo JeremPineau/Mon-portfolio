@@ -1,11 +1,16 @@
-#copyright-fixed {
+.footer {
     background: rgb(211,211,211);
     height: 3vw;
     width: 100%;
     bottom: 0;
     display: grid;
+}
+.footer p {
+    margin: auto; 
+}
+.fixed {
     position: fixed;
 }
-#copyright-fixed p {
-    margin: auto; 
+.relative {
+    position: relative;
 }
