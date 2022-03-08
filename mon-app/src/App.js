@@ -10,9 +10,9 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Homepage />} />
-        <Route path='/about-me' element={<AboutMe />} />
-        <Route path='/my-achievements' element={<MyAchievements />} />
-        <Route path='/contact-me' element={<ContactMe />} />
+        <Route path='/a-propos-de-moi' element={<AboutMe />} />
+        <Route path='/mes-realisations' element={<MyAchievements />} />
+        <Route path='/me-contacter' element={<ContactMe />} />
       </Routes>
     </BrowserRouter>
   );

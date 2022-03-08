@@ -5,8 +5,6 @@
 #about img {
     margin: 5% auto auto auto;
 }
-
-
 .career, .experiences, .skills, .hobbies {
     margin: 15% auto;
     display: grid;
@@ -22,8 +20,6 @@
 .experiences h3, .skills h3, .pics {
     text-align: center;
 }
-
-
 #licence, #dut, #bts, 
 #internship2, #warehouseman, #production-worker, #internship1, 
 #languages, #programming-languages, #softwares  {

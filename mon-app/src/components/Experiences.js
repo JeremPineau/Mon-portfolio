@@ -71,7 +71,9 @@ const Experiences = () => {
                     <p>❍ Participation aux OPPBTP (prévention)</p>
                     <p>❍ Tenue du journal de chantier</p> 
                 </div>
-                <a href="https://www.adele.org/residence/2480/maison-blanche-2480/lille-59" target="_blank" rel="noreferrer">[ Pour plus d'informations ]</a>
+                <div id="info">
+                    <a href="https://www.adele.org/residence/2480/maison-blanche-2480/lille-59" target="_blank" rel="noreferrer">Pour plus d'informations à propos du projet</a>
+                </div>
             </div>
         </div> 
     );

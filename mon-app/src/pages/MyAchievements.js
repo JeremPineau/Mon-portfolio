@@ -40,7 +40,7 @@ const MyAchievements = () => {
                     <div id="projet-workshop-handicap" data-aos="fade-up">
                         <h2>Projet workshop handicap&emsp;<img src={Angleterre} alt="angleterre" width={'5%'} /></h2>
                         <p><span>Description :</span> Il fallait réfléchir à une problèmatique liée au Handicap (exclusion, matériel non adapté, accessibilité, ...) dans le milieu de la formation professionnelle et proposer une solution pouvant répondre à cette problèmatique.</p>
-                        <p>Nous avons choisi de créer un site web pour faciliter la vie des personnes atteintes de trisomie 21 et d'un guide d'utilisation (ou launcher) pour les accompagnants.</p> 
+                        <p>Nous avons choisi de créer un site web pour faciliter la vie des personnes atteintes de trisomie 21 et un guide d'utilisation (ou launcher) pour les accompagnants.</p> 
                         <p><span>Framework :</span> Symphony</p>
                         <p><span>Langages de programmation :</span> PHP, Twig, CSS, Shell, JavaScript + Visual Basic, C#</p>
                         <p><span>En collaboration avec :</span> Quentin Vandromme, Thomas Ducoulombier, Vincent Richir, Geoffrey Lepingle</p>
@@ -50,7 +50,8 @@ const MyAchievements = () => {
                     <h2 data-aos="fade-up">DUT informatique - IUT de Lens</h2>
                     <div id="projet-administration-customer-portal" data-aos="fade-up">
                         <h2>Projet portail administration (stage)&emsp;<img src={Vietnam} alt="vietnam" width={'5%'} /></h2>
-                        <p><span>Description :</span> Notre application est un portail de gestion de comptes clients proposant plusieurs services mis à leur disposition et leur permettant de faciliter leur travail. Les clients d'IYA Limited peuvent désormais ajouter et consulter leurs factures depuis le site. Ils ont accès à la gestion de leurs prestations, peuvent apporter une réponse sur la qualité du service proposé. Ils peuvent également créer un devis et y avoir accès, avoir la possibilité d'ajouter un sous-utilisateur et de gérer ses droits. Les fonctionnalités étant :</p>
+                        <p><span>Description :</span> Notre application est un portail de gestion de comptes clients proposant plusieurs services mis à leur disposition et leur permettant de faciliter leur travail. Les clients d'IYA Limited peuvent désormais ajouter et consulter leurs factures depuis le site. Ils ont accès à la gestion de leurs prestations, peuvent apporter une réponse sur la qualité du service proposé. Ils peuvent également créer un devis et y avoir accès, avoir la possibilité d'ajouter un sous-utilisateur et de gérer ses droits.</p>
+                        <p>Les fonctionnalités sont :</p>
                         <div class="gap">
                             <p>❍ Permettre aux utilisateurs de se connecter à leur compte, et, s’ils n’en possèdent pas, faire une demande aux admin du site pour en obtenir un.</p>
                             <p>❍ Permettre aux clients de s’abonner aux différents services du site, de résilier leur abonnement quand ils le souhaitent (selon les conditions du contrat).</p>
