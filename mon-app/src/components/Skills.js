@@ -1,6 +1,6 @@
 import React from 'react';
 import France from '../assets/about-me/skills/languages/france.png';
-import Angleterre from '../assets/about-me/skills/languages/angleterre.jpg';
+import RoyaumeUni from '../assets/about-me/skills/languages/royaume-uni.jpg';
 import USA from '../assets/about-me/skills/languages/usa.jpg';
 import Espagne from '../assets/about-me/skills/languages/espagne.jpg';
 import CCpp from '../assets/about-me/skills/programming-languages/programming/c-cpp.png';
@@ -38,11 +38,10 @@ const Skills = () => {
             <div id="languages" data-aos="fade-up">
                 <h3>Langues</h3>					
                 <div class="pics">&emsp;
-                    <img src={France} alt="france" title="Français (courant)" width={'30%'} />&emsp;
-                    <img src={Angleterre} alt="angleterre" title="Anglais (niveau B2)" width={'30%'} />&emsp;
-                    <div class="space" />
-                    <img src={USA} alt="usa" title="Anglais (niveau B2)" width={'30%'} />&emsp;
-                    <img src={Espagne} alt="espagne" title="Espagnol (notions)" width={'30%'} /> 
+                    <img src={France} alt="france" title="Français (courant)" width={'15%'} />&emsp;
+                    <img src={RoyaumeUni} alt="royaume-uni" title="Anglais (niveau B2)" width={'15%'} />&emsp;
+                    <img src={USA} alt="usa" title="Anglais (niveau B2)" width={'15%'} />&emsp;
+                    <img src={Espagne} alt="espagne" title="Espagnol (notions)" width={'15%'} /> 
                 </div>
             </div>
             <div id="programming-languages" data-aos="fade-up">

@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 import Navigation from '../components/Navigation';
 import Diversity from '../assets/my-achievements/diversity.png';
 import Tunisie from '../assets/my-achievements/tunisie.png';
-import Angleterre from '../assets/my-achievements/angleterre.jpg';
+import RoyaumeUni from '../assets/my-achievements/royaume-uni.jpg';
 import Vietnam from '../assets/my-achievements/vietnam.png';
 import Espagne from '../assets/my-achievements/espagne.jpg';
 import France from '../assets/my-achievements/france.png';
@@ -38,7 +38,7 @@ const MyAchievements = () => {
                 <div id="epsi-achievements">
                     <h2 data-aos="fade-up">Bachelor informatique - EPSI</h2>
                     <div id="projet-workshop-handicap" data-aos="fade-up">
-                        <h3>Projet workshop handicap&emsp;<img src={Angleterre} alt="angleterre" width={'5%'} /></h3>
+                        <h3>Projet workshop handicap&emsp;<img src={RoyaumeUni} alt="royaume-uni" width={'5%'} /></h3>
                         <p><span>Description :</span> Il fallait réfléchir à une problèmatique liée au Handicap (exclusion, matériel non adapté, accessibilité, ...) dans le milieu de la formation professionnelle et proposer une solution pouvant répondre à cette problèmatique.</p>
                         <p>Nous avons choisi de créer un site web pour faciliter la vie des personnes atteintes de trisomie 21 et un guide d'utilisation (ou launcher) pour les accompagnants.</p> 
                         <p><span>Framework :</span> Symphony</p>

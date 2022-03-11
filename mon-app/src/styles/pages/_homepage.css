@@ -6,6 +6,9 @@
     margin: auto;
     text-align: center;
 }
+#jeremie img {
+    box-shadow: .5vw .25vw .25vw rgba(0,0,0,.1);
+}
 #description h3 {
     margin: 0 auto 3% 5%;
 }

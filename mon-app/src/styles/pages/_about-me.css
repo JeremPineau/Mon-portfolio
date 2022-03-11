@@ -4,6 +4,7 @@
 }
 #about img {
     margin: 5% auto auto auto;
+    box-shadow: .5vw .25vw .25vw rgba(0,0,0,.1);
 }
 .career, .experiences, .skills, .hobbies {
     margin: 15% auto;
@@ -22,7 +23,7 @@
 }
 #licence, #dut, #bts, 
 #internship2, #warehouseman, #production-worker, #internship1, 
-#languages, #programming-languages, #softwares  {
+#languages, #programming-languages, #softwares {
     border: .1em solid rgb(211,211,211);
     width: 50%;
     margin: 2.5% auto auto auto;

@@ -1,8 +1,8 @@
 import React from 'react';
 import IyaLimited from '../assets/about-me/experiences/internship2/iya-limited.png';
 import Vietnam from '../assets/about-me/experiences/internship2/vietnam.png';
-import Simastock from '../assets/about-me/experiences/warehouseman/simastock.jpg';
-import Manutentionnaire from '../assets/about-me/experiences/warehouseman/manutentionnaire.jpg';
+import Simastock from '../assets/about-me/experiences/warehouseman/simastock.png';
+import Manutentionnaire from '../assets/about-me/experiences/warehouseman/manutentionnaire.png';
 import Wienerberger from '../assets/about-me/experiences/production-worker/wienerberger.png';
 import AgentDeProduction from '../assets/about-me/experiences/production-worker/agent-de-production.jpg';
 import NordFranceConstructions from '../assets/about-me/experiences/internship1/nord-france-constructions.jpg';
@@ -15,14 +15,16 @@ const Experiences = () => {
                 <h3>IYA Limited</h3>
                 <div class="pics">
                     <img src={IyaLimited} alt="iya-limited" width={'40%'} />
-                    <img src={Vietnam} alt="vietnam" width={'25%'} />
+                    <img src={Vietnam} alt="vietnam" width={'15%'} />
                 </div>
-                <p>3 juin 2021</p> 
                 <p><span>Date :</span> 06/2021 - 08/2021</p>
                 <p><span>Poste :</span> Stagiaire en développement web</p>
                 <p><span>Lieu :</span> Hô Chi Minh-Ville (Viêt Nam)</p>
-                <p>Création d'une application en Laravel permettant de centraliser toutes les activités et modules étant essentiels et utiles à l'entreprise IYA Limited.</p>
-                <p>Voir <a href="/mes-realisations">mes réalisations</a></p>
+                <span>Description :</span>
+                <div class="gap">
+                    <p>Création d'une application en Laravel permettant de centraliser toutes les activités et modules étant essentiels et utiles à l'entreprise IYA Limited.</p>
+                    <p>Voir <a href="/mes-realisations">mes réalisations</a></p>
+                </div>
             </div> 
             <div id="warehouseman" data-aos="fade-up">
                 <h3>SIMASTOCK</h3>
@@ -30,10 +32,10 @@ const Experiences = () => {
                     <img src={Simastock} alt="simastock" width={'40%'} />
                     <img src={Manutentionnaire} alt="manutentionnaire" width={'25%'} />
                 </div>
-                <p>Mars 2017</p>
                 <p><span>Date :</span> 03/2017 - 08/2017</p>
                 <p><span>Poste :</span> Manutentionnaire</p>
                 <p><span>Lieu :</span> Sin-le-Noble - Dechy - Hénin-Beaumont - Lauwin-planque - Orchies</p>
+                <span>Description :</span>
                 <div class="gap">
                     <p>❍ Chargement / déchargement de containers</p>
                     <p>❍ Conditionnement, palettisation</p>
@@ -46,10 +48,10 @@ const Experiences = () => {
                     <img src={Wienerberger} alt="wienerberger" width={'40%'} />
                     <img src={AgentDeProduction} alt="agent-de-production" width={'35%'} />
                 </div>
-                <p>Novembre 2016</p>
                 <p><span>Date :</span> 11/2016 - 12/2016</p>
                 <p><span>Poste :</span> Agent de production</p>
                 <p><span>Lieu :</span> Flines-lez-Raches</p>
+                <span>Description :</span>
                 <div class="gap">
                     <p>❍ Manutention de briques sur four</p>
                     <p>❍ Contrôle visuel</p>
@@ -61,10 +63,10 @@ const Experiences = () => {
                 <div class="pics">
                     <img src={NordFranceConstructions} alt="nord-france-constructions" width={'60%'} />
                 </div>
-                <p>11 mai 2015</p> 
                 <p><span>Date :</span> 05/2015 - 07/2015</p>
                 <p><span>Poste :</span> Stagiaire assistant chef de chantier</p>
                 <p><span>Lieu :</span> sur chantier à Lille</p>
+                <span>Description :</span>
                 <div class="gap">
                     <p>❍ Découverte des différents corps de métier liés au btp avec les équipes (coffreurs, bancheurs, ferrailleurs, poseurs de prémurs)</p>
                     <p>❍ Rangement de matériels / nettoyage</p>
