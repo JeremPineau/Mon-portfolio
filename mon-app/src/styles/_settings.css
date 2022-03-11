@@ -1,6 +1,6 @@
 html, body {
     background: url(../assets/bg.jpg) fixed;
-    font-family: sans-serif;
+    font-family: helvetica, arial, sans-serif;
     height: 100%;
     width: 100%;
     margin: 0;
@@ -20,6 +20,11 @@ html, body {
     }
 }
 #section h2 {
+    text-align: center;
+    padding: 1%;
+    background: rgba(211, 211, 211,.2);
+}
+#section h3 {
     text-align: center;
 }
 span {

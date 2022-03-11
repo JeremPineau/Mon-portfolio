@@ -22,7 +22,7 @@ const Experiences = () => {
                 <p><span>Poste :</span> Stagiaire en développement web</p>
                 <p><span>Lieu :</span> Hô Chi Minh-Ville (Viêt Nam)</p>
                 <p>Création d'une application en Laravel permettant de centraliser toutes les activités et modules étant essentiels et utiles à l'entreprise IYA Limited.</p>
-                <p>Voir <a href="/my-achievements">mes réalisations</a></p>
+                <p>Voir <a href="/mes-realisations">mes réalisations</a></p>
             </div> 
             <div id="warehouseman" data-aos="fade-up">
                 <h3>SIMASTOCK</h3>

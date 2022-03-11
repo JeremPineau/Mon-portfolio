@@ -9,6 +9,9 @@
     margin: 15% auto;
     display: grid;
 }
+#project-achievements img, #epsi-achievements img, #iut-lens-achievements img, #iut-amiens-achievements img {
+    vertical-align: middle;
+}
 @media(max-width: 500px) {
     #project-achievements, #epsi-achievements, #iut-lens-achievements, #iut-amiens-achievements {
         margin: 35% auto;
