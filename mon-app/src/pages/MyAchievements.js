@@ -8,7 +8,7 @@ import RoyaumeUni from '../assets/my-achievements/royaume-uni.jpg';
 import Vietnam from '../assets/my-achievements/vietnam.png';
 import Espagne from '../assets/my-achievements/espagne.jpg';
 import France from '../assets/my-achievements/france.png';
-import Chine from '../assets/my-achievements/chine.png';
+import Chine from '../assets/my-achievements/projet-qwirkle/chine.png';
 import Portugal from '../assets/my-achievements/projet-ventes-fruits-legumes/portugal.png';
 import ScrollButton from '../components/ScrollButton';
 import FooterRelative from '../components/FooterRelative';
