@@ -9,7 +9,7 @@ import Vietnam from '../assets/my-achievements/vietnam.png';
 import Espagne from '../assets/my-achievements/espagne.jpg';
 import France from '../assets/my-achievements/france.png';
 import Chine from '../assets/my-achievements/chine.png';
-import Portugal from '../assets/my-achievements/portugal.png';
+import Portugal from '../assets/my-achievements/projet-ventes-fruits-legumes/portugal.png';
 import ScrollButton from '../components/ScrollButton';
 import FooterRelative from '../components/FooterRelative';
 
@@ -93,7 +93,7 @@ const MyAchievements = () => {
                         <h3>Projet ventes fruits/légumes (semestre 1)&emsp;<img src={Portugal} alt="portugal" width={'5%'} /></h3>
                         <p><span>Description :</span> Création d'un site web débutant de ventes de fruits et de légumes (ajout d'articles et paiement non fonctionnels).</p>
                         <p><span>Langages de programmation :</span> HTML/CSS</p>
-                        <p><span>En collaboration avec :</span> Arthur Palma</p>
+                        <p><span>En collaboration avec :</span> Arthur Palma</p>                       
                     </div>
                 </div>
             </div> 
