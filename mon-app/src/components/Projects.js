@@ -11,6 +11,7 @@ const Projects = () => {
     return (
         <div className="projects">
             <div id="project-achievements">
+                <h2 data-aos="fade-up">Projet personnel</h2>
                 <div id="projet-miellerie-paca" data-aos="fade-up">
                     <h3>Projet miellerie PACA&emsp;<img src={Tunisie} alt="tunisie" width={'5%'} /></h3>
                     <p><span>Description :</span> Refonte d'un site web vitrine from scratch pour des apiculteurs.</p> 

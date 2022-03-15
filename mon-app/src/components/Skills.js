@@ -47,7 +47,7 @@ const Skills = () => {
             <div id="programming-languages" data-aos="fade-up">
                 <h3>Langages de programmation</h3>
                 <div class="skills-list">
-                    <span>Programmation :</span>
+                <p class="underline">Programmation :</p>
                     <div class="pics">
                         <img src={CCpp} alt="c-cpp" title="C/C++" width={'17.5%'} />&emsp;
                         <img src={CSharp} alt="csharp" title="C#" width={'20%'} />&emsp;
@@ -56,7 +56,7 @@ const Skills = () => {
                     </div>
                 </div>
                 <div class="skills-list">
-                    <span>Web :</span>
+                    <p class="underline">Web :</p>
                     <div class="pics">
                         <img src={HtmlCss} alt="html-css" title="HTML/CSS" width={'30%'} />&emsp;
                         <img src={Php} alt="php" title="PHP" width={'30%'} />&emsp;
@@ -68,7 +68,7 @@ const Skills = () => {
                     </div>
                 </div>
                 <div class="skills-list">
-                    <span>Interfaces graphiques :</span>
+                    <p class="underline">Interfaces graphiques :</p>
                     <div class="pics">
                         <img src={XAML} alt="xaml" title="XAML" width={'25%'} />&emsp;
                         <img src={VisualBasic} alt="visual-basic" title="Visual Basic" width={'30%'} />&emsp;
@@ -76,7 +76,7 @@ const Skills = () => {
                     </div>
                 </div>
                 <div class="skills-list">
-                    <span>Bases de données :</span>
+                    <p class="underline">Bases de données :</p>
                     <div class="pics">
                         <img src={MySQL} alt="mysql" title="MySQL" width={'30%'} />&emsp;
                         <img src={PostgreSQL} alt="postgresql" title="PostgreSQL" width={'20%'} />&emsp;
@@ -87,7 +87,7 @@ const Skills = () => {
             <div id="softwares" data-aos="fade-up">
                 <h3>Logiciels</h3>
                 <div class="skills-list">
-                    <span>Developpement informatique :</span>
+                    <p class="underline">Developpement informatique :</p>
                     <div class="pics">
                         <img src={VisualStudioCode} alt="visual-studio-code" title="Visual Studio Code" width={'17.5%'} />&emsp;
                         <img src={VisualStudio} alt="visual-studio" title="Visual Studio" width={'17.5%'} />&emsp;
@@ -97,14 +97,14 @@ const Skills = () => {
                     </div>
                 </div>
                 <div class="skills-list">
-                    <span>Outils d'organisation :</span>
+                    <p class="underline">Outils d'organisation :</p>
                     <div class="pics">
                         <img src={Trello} alt="trello" title="Trello" width={'40%'} />&emsp;
                         <img src={JiraSoftware} alt="jira-software" title="Jira software" width={'55%'} />
                     </div>
                 </div>
                 <div class="skills-list">
-                    <span>Architecture :</span> 
+                    <p class="underline">Architecture :</p> 
                     <div class="pics">
                         <img src={AutoCAD} alt="autocad" title="AutoCAD" width={'40%'} />
                         <img src={RevitArchitecture} alt="revit-architecture" title="Revit Architecture" width={'30%'} />

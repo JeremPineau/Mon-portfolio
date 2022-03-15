@@ -12,7 +12,7 @@
 }
 #projet-miellerie-paca, #projet-workshop-handicap, #projet-administration-customer-portal, #projet-ludotheque2, #projet-ludotheque1, #projet-qwirkle, #projet-ventes-fruits-legumes {
     border: .1em solid rgb(211,211,211);
-    width: 50%;
+    width: 75%;
     margin: 2.5% auto auto auto;
     padding: 2.5% 5%;
     display: inline-block;

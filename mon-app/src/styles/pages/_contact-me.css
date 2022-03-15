@@ -2,12 +2,14 @@
     text-align: center;
 }
 #informations { 
-    margin: 1em auto auto auto;
-    width: 35%;
+    margin: 1em auto auto 30%;
     display: grid;
 }
-#mail, #phone, #location { 
+#mail, #phone { 
     margin: .5em 0;
+}
+#mail img, #phone img {
+    width: 5%;
 }
 #mail img, #mail a, #phone img, #phone p {
     display: inline-block;

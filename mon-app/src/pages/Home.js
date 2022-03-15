@@ -1,11 +1,11 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
-import Jeremie from '../assets/homepage/jeremie.png'; 
+import Jeremie from '../assets/home/jeremie.png'; 
 import FooterFixed from '../components/FooterFixed';
 
-const Homepage = () => {
+const Home = () => {
     return (
-        <div className="homepage">
+        <div className="home">
             <Navigation />
             <h1>Bienvenue sur mon portfolio !</h1>
             <div id="section">
@@ -27,4 +27,4 @@ const Homepage = () => {
     );
 };
 
-export default Homepage;
+export default Home;

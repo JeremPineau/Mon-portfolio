@@ -3,6 +3,7 @@
 }
 #info a { 
     margin: auto;
+    text-align: center;
     padding: 2%;
     background-color: rgba(220,220,220,.5);
     border: .1vw solid rgb(211,211,211);
